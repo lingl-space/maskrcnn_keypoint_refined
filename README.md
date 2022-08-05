@@ -27,7 +27,7 @@ Among them, the network structure of keypoint branches is as follows:
 
 #### Note:
 - The experimental data of Mask RCNN comes from [*Detectron2*](https://github.com/facebookresearch/detectron2) project.
-- The SimpleBaseline network is based on the [*code implementation*] (https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) of the HRNet project. However, flip test is turned off. And person detector has person AP of 55.4 (ResNet-50) and 56.1 (ResNet-101) on COCO val2017 set.
+- The SimpleBaseline network is based on the [*code implementation*](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) of the HRNet project. However, flip test is turned off. And person detector has person AP of 55.4 (ResNet-50) and 56.1 (ResNet-101) on COCO val2017 set.
 
 ### Detection results on COCO test-dev2017 set
 
@@ -41,8 +41,8 @@ Among them, the network structure of keypoint branches is as follows:
 
 
 #### Note:
-- The experimental data of Mask RCNN comes from the paper [Mask R-CNN] (https://arxiv.org/abs/1703.06870).
-- The SimpleBaseline network is based on the [*code implementation*] (https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) of the HRNet project. However, flip test is turned off.
+- The experimental data of Mask RCNN comes from the paper [*Mask R-CNN*](https://arxiv.org/abs/1703.06870).
+- The SimpleBaseline network is based on the [*code implementation*](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) of the HRNet project. However, flip test is turned off.
 
 ## Environment
 
@@ -52,7 +52,7 @@ The code is developed using python 3.6.6 on Ubuntu 18.04. NVIDIA GPUs are needed
 
 ### Installation
 
-Our code is based on the [*Detectron2*] (https://github.com/facebookresearch/detectron2). Therefore, the environment configuration refers to the [*installation instructions*] (https://detectron2.readthedocs.io/en/latest/tutorials/install.html) in Detectron2.
+Our code is based on the [*Detectron2*](https://github.com/facebookresearch/detectron2). Therefore, the environment configuration refers to the [*installation instructions*](https://detectron2.readthedocs.io/en/latest/tutorials/install.html) in Detectron2.
 
 ## Training and Testing 
 
@@ -66,7 +66,7 @@ Our code is based on the [*Detectron2*] (https://github.com/facebookresearch/det
 ./tools/train_net.py --config-file configs/COCO-Keypoints/keypoint_rcnn_R_101_FPN_3x.yaml --num-gpus 1 SOLVER.IMS_PER_BATCH 2 SOLVER.BASE_LR 0.0025 SOLVER.MAX_ITER 2160000 SOLVER.STEPS 1680000,2000000
 ```
 
-##### Testing on COCO test-dev2017 set. Our trained model is provided in [best_model_set] (best_model_set/).
+##### Testing on COCO test-dev2017 set. Our trained model is provided in [best_model_set](best_model_set/).
 
 ```python
 # ResNet-50 backbone
