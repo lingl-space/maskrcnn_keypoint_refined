@@ -26,7 +26,7 @@ Among them, the network structure of keypoint branches is as follows:
 |     Our method      | ResNet-101 | 68.3 |  88.0  |  74.8  |  63.8  |  76.6  |
 
 #### Note:
-- The experimental data of Mask RCNN comes from [*Detectron2*] (https://github.com/facebookresearch/detectron2) project.
+- The experimental data of Mask RCNN comes from [*Detectron2*](https://github.com/facebookresearch/detectron2) project.
 - The SimpleBaseline network is based on the [*code implementation*] (https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) of the HRNet project. However, flip test is turned off. And person detector has person AP of 55.4 (ResNet-50) and 56.1 (ResNet-101) on COCO val2017 set.
 
 ### Detection results on COCO test-dev2017 set
