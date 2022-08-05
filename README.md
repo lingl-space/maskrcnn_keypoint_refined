@@ -6,11 +6,11 @@ In this paper, we aim to largely advance the human pose estimation results of Ma
 
 The framework of our model is illustrated below:
 
-<img src="/fig/structure.png" style="zoom: 50%;float:left;width: 100px" />
+<img src="/fig/structure.png" style="zoom: 50%;float:left;width: 500px" />
 
 Among them, the network structure of keypoint branches is as follows:
 
-<img src="/fig/network.png" style="zoom: 50%;float:left" />
+<img src="/fig/network.png" style="zoom: 50%;float:left;width: 500px" />
 
 ## Main Results
 
