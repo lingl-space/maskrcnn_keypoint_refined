@@ -41,7 +41,7 @@ Among them, the network structure of keypoint branches is as follows:
 
 
 #### Note:
-- The experimental data of Mask RCNN comes from the paper [*Mask R-CNN*] (https://arxiv.org/abs/1703.06870).
+- The experimental data of Mask RCNN comes from the paper [Mask R-CNN] (https://arxiv.org/abs/1703.06870).
 - The SimpleBaseline network is based on the [*code implementation*] (https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) of the HRNet project. However, flip test is turned off.
 
 ## Environment
