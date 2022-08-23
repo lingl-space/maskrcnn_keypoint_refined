@@ -17,7 +17,7 @@ python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 
 # Or, to install it from a local clone:
 git clone https://github.com/facebookresearch/detectron2.git
-python -m pip install -e detectron2
+python -m pip install -e maskrcnn_keypoint_refined
 
 # On macOS, you may need to prepend the above commands with a few environment variables:
 CC=clang CXX=clang++ ARCHFLAGS="-arch x86_64" python -m pip install ...
