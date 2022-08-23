@@ -9,6 +9,12 @@
 
 ### Build Detectron2 from Source
 
+It is recommended to use the conda virtual environment for configuration.
+'''
+conda create -n maskrcnn-refined python=3.7 -y
+conda activate maskrcnn-refined
+'''
+
 gcc & g++ ≥ 5.4 are required. [ninja](https://ninja-build.org/) is optional but recommended for faster build.
 After having them, run:
 ```
