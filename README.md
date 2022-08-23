@@ -68,7 +68,7 @@ Please refer to [*Installation Instructions*](INSTALL.md) for the configuration 
 ./tools/train_net.py --config-file configs/COCO-Keypoints/keypoint_rcnn_R_101_FPN_3x.yaml --num-gpus 1 SOLVER.IMS_PER_BATCH 2 SOLVER.BASE_LR 0.0025 SOLVER.MAX_ITER 2160000 SOLVER.STEPS 1680000,2000000
 ```
 
-##### Testing on COCO test-dev2017 set. Our trained model is provided in [best_model_set](https://pan.baidu.com/s/1afpCHab3f6Qj_1ETPfDKEw?pwd=2hub).
+##### Testing on COCO test-dev2017 set. Our trained model is provided in [best_model_set](https://pan.baidu.com/s/1afpCHab3f6Qj_1ETPfDKEw?pwd=2hub).(This folder is placed under maskrcnn_keypoint_refined/.)
 
 ```python
 # ResNet-50 backbone
