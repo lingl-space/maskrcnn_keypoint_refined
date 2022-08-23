@@ -72,10 +72,10 @@ Please refer to [*Installation Instructions*](INSTALL.md) for the configuration 
 
 ```python
 # ResNet-50 backbone
-./tools/train_net.py --config-file configs/COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x.yaml --eval_only --num-gpus 1 MODEL.WEIGHTS /best_model_set/model_r50.pth
+./tools/train_net.py --config-file configs/COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x.yaml --eval-only --num-gpus 1 MODEL.WEIGHTS /best_model_set/model_r50.pth
 
 # ResNet-101 backbone
-./tools/train_net.py --config-file configs/COCO-Keypoints/keypoint_rcnn_R_101_FPN_3x.yaml --eval_only --num-gpus 1 MODEL.WEIGHTS /best_model_set/model_r101.pth
+./tools/train_net.py --config-file configs/COCO-Keypoints/keypoint_rcnn_R_101_FPN_3x.yaml --eval-only --num-gpus 1 MODEL.WEIGHTS /best_model_set/model_r101.pth
 ```
 
 ### Citation
