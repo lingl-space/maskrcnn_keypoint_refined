@@ -54,6 +54,8 @@ The code is developed using python 3.6.6 on Ubuntu 18.04. NVIDIA GPUs are needed
 
 Our code is based on the [*Detectron2*](https://github.com/facebookresearch/detectron2). Therefore, the environment configuration refers to the [*installation instructions*](https://detectron2.readthedocs.io/en/latest/tutorials/install.html) in Detectron2.
 
+Please refer to [*Installation Instructions*](https://detectron2.readthedocs.io/en/latest/tutorials/install.html) for the configuration of the Detectron2 environment and [*Use Builtin Datasets*](https://detectron2.readthedocs.io/en/latest/tutorials/builtin_datasets.html) for the preparation of the datasets.
+
 ## Training and Testing 
 
 ##### Train on COCO val2017 set
